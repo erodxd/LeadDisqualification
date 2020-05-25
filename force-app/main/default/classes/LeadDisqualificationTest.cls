@@ -1,11 +1,14 @@
 @isTest
-private class <<TestName>> {
+private class LeadDisqualificationTest {
+    @isTest static void addLeadWithNameTest() {
+        
+        Lead lead = new Lead();
 
-    @isTest static void test_method_one() {
-        // impliment test code
+        lead.FirstName = 'Test';
+        lead.LastName = 'test';
+        lead.Status = '';
+
+        insert lead;
     }
 
-    @isTest static void test_method_two() {
-        // impliment test code
-    }
 }
