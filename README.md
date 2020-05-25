@@ -1,6 +1,6 @@
 # Lead Disqualification
 
-Automatically disqualify 'test' leads.
+Automatically disqualify leads with a First name or Last name value of 'Test'.
 
 ## Key Milestones
 
